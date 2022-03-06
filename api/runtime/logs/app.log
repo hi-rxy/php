@@ -1,0 +1,110 @@
+2022-03-06 19:35:36 [127.0.0.1][-][-][error][yii\web\HttpException:50014] api\exceptions\TokenOverdueException: token 已过期 in D:\wwwroot\yii2cms\api\models\web\AdminUser.php:170
+Stack trace:
+#0 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(148): api\models\web\AdminUser::isLoginTokenValida(NULL, NULL)
+#1 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(118): api\models\web\AdminUser::findByToken('ad31e486d89d937...')
+#2 D:\wwwroot\yii2cms\api\modules\web\Module.php(28): api\models\web\AdminUser::findIdentityByAccessToken('ad31e486d89d937...')
+#3 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Controller.php(168): api\modules\web\Module->beforeAction(Object(yii\base\InlineAction))
+#4 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('search', Array)
+#5 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('web/database/se...', Array)
+#6 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\wwwroot\yii2cms\api\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-03-06 19:35:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'page' => '1'
+    'limit' => '10'
+    'sort' => '-Create_time'
+]
+
+$_POST = []
+
+$_FILES = []
+2022-03-06 19:36:57 [127.0.0.1][-][-][error][yii\web\HttpException:501] api\exceptions\TokenOverdueException: token 已过期 in D:\wwwroot\yii2cms\api\models\web\AdminUser.php:170
+Stack trace:
+#0 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(148): api\models\web\AdminUser::isLoginTokenValida(NULL, NULL)
+#1 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(118): api\models\web\AdminUser::findByToken('ad31e486d89d937...')
+#2 D:\wwwroot\yii2cms\api\modules\web\Module.php(28): api\models\web\AdminUser::findIdentityByAccessToken('ad31e486d89d937...')
+#3 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Controller.php(168): api\modules\web\Module->beforeAction(Object(yii\base\InlineAction))
+#4 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('admin', Array)
+#5 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('web/admin/admin', Array)
+#6 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\wwwroot\yii2cms\api\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-03-06 19:36:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'token' => 'ad31e486d89d9377b51aab7a988f6edf'
+]
+
+$_POST = []
+
+$_FILES = []
+2022-03-06 19:38:12 [127.0.0.1][-][-][error][yii\web\HttpException:501] api\exceptions\TokenOverdueException: token 已过期 in D:\wwwroot\yii2cms\api\models\web\AdminUser.php:170
+Stack trace:
+#0 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(148): api\models\web\AdminUser::isLoginTokenValida(NULL, NULL)
+#1 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(118): api\models\web\AdminUser::findByToken('f29cb573d56c535...')
+#2 D:\wwwroot\yii2cms\api\modules\web\Module.php(28): api\models\web\AdminUser::findIdentityByAccessToken('f29cb573d56c535...')
+#3 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Controller.php(168): api\modules\web\Module->beforeAction(Object(yii\base\InlineAction))
+#4 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('tree-menu', Array)
+#5 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('web/menu/tree-m...', Array)
+#6 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\wwwroot\yii2cms\api\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-03-06 19:38:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+2022-03-06 19:38:12 [127.0.0.1][-][-][error][yii\web\HttpException:501] api\exceptions\TokenOverdueException: token 已过期 in D:\wwwroot\yii2cms\api\models\web\AdminUser.php:170
+Stack trace:
+#0 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(148): api\models\web\AdminUser::isLoginTokenValida(NULL, NULL)
+#1 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(118): api\models\web\AdminUser::findByToken('f29cb573d56c535...')
+#2 D:\wwwroot\yii2cms\api\modules\web\Module.php(28): api\models\web\AdminUser::findIdentityByAccessToken('f29cb573d56c535...')
+#3 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Controller.php(168): api\modules\web\Module->beforeAction(Object(yii\base\InlineAction))
+#4 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('tree-menu', Array)
+#5 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('web/menu/tree-m...', Array)
+#6 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\wwwroot\yii2cms\api\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-03-06 19:38:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'page' => '1'
+    'limit' => '10'
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+2022-03-06 20:02:57 [127.0.0.1][-][-][error][yii\web\HttpException:501] api\exceptions\TokenOverdueException: token 已过期 in D:\wwwroot\yii2cms\api\models\web\AdminUser.php:170
+Stack trace:
+#0 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(148): api\models\web\AdminUser::isLoginTokenValida(NULL, 1646589468)
+#1 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(118): api\models\web\AdminUser::findByToken('1107bb56cae76a1...')
+#2 D:\wwwroot\yii2cms\api\modules\web\Module.php(28): api\models\web\AdminUser::findIdentityByAccessToken('1107bb56cae76a1...')
+#3 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Controller.php(168): api\modules\web\Module->beforeAction(Object(yii\base\InlineAction))
+#4 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('tree-menu', Array)
+#5 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('web/menu/tree-m...', Array)
+#6 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\wwwroot\yii2cms\api\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-03-06 20:02:55 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+2022-03-06 20:02:57 [127.0.0.1][-][-][error][yii\web\HttpException:501] api\exceptions\TokenOverdueException: token 已过期 in D:\wwwroot\yii2cms\api\models\web\AdminUser.php:170
+Stack trace:
+#0 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(148): api\models\web\AdminUser::isLoginTokenValida(NULL, 1646589468)
+#1 D:\wwwroot\yii2cms\api\models\web\AdminUser.php(118): api\models\web\AdminUser::findByToken('1107bb56cae76a1...')
+#2 D:\wwwroot\yii2cms\api\modules\web\Module.php(28): api\models\web\AdminUser::findIdentityByAccessToken('1107bb56cae76a1...')
+#3 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Controller.php(168): api\modules\web\Module->beforeAction(Object(yii\base\InlineAction))
+#4 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('tree-menu', Array)
+#5 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('web/menu/tree-m...', Array)
+#6 D:\wwwroot\yii2cms\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\wwwroot\yii2cms\api\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-03-06 20:02:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'page' => '1'
+    'limit' => '10'
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []

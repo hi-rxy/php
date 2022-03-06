@@ -1,0 +1,70 @@
+<include file="common/header"/>
+<link href="__STATIC__/index/css/cart.css" rel="stylesheet" type="text/css"/>
+<link href="__STATIC__/index/css/wx_pay.css" rel="stylesheet" type="text/css"/>
+<script src="__STATIC__/index/extends/js/jquery.qrcode.min.js" type="text/javascript"></script>
+<body>
+<!--顶部导航-->
+<include file="common/common_top"/>
+<!--全部分类及搜索-->
+<include file="common/search"/>
+<div class="clear"></div>
+<div class="concent">
+	<div class="wx-pay">
+		<div class="order-title">
+			<span class="order-num">订单号：{$order_sn}</span>
+			<span class="order-price">实付款￥：<em>{$order_price}</em></span>
+		</div>
+		<div class="pc-order-con">
+			<div class="pay-qr-box">
+				<div class="img-qr">
+					<!--<img src="http://thinkphp5.axlix.com/api/qr.html" alt="微信支付二维码">-->
+					<div id="code" style="width:300px;height: 300px;">
+
+					</div>
+				</div>
+				<div class="img-qr-bottom">
+					<p class="img-icon"><img src="__STATIC__/index/images/qrcode.gif" alt="">
+						<span class="pay-explain"><b>请使用微信扫一扫</b><b>扫描二维码支付</b></span>
+					</p>
+					<p class="img-info">阿西里西多店铺商城</p>
+				</div>
+			</div>
+			<div class="pay-order-guide">
+				<img src="__STATIC__/index/images/wx_pay.png" alt="微信如何支付">
+			</div>
+		</div>
+		<div class="wap-order-con">
+			<div class="pay-qr-box">
+				<a href="javascript:;" class="wap-pay-btn" onclick="jsApiCall();">微信立即支付</a>
+				<a href="javascript:;" class="wap-cancle-pay-btn">取消支付</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var url = "{$code_url}";
+	$("#code").qrcode({
+		render: "table",
+		width: 300,
+		height: 300,
+		text: url,
+	})
+	function jsApiCall () {
+		<?php if(is_weixin()):?>
+		WeixinJSBridge.invoke(
+			'getBrandWCPayRequest',
+		  <?php echo htmlspecialchars_decode($code_url); ?>,
+			function(res){
+				if(res.err_msg == "get_brand_wcpay_request:ok"){
+					location.href="{:url('UserOrder/index')}";
+				}
+			}
+		);
+		<?php else:?>
+		location.href="{$code_url}";
+		<?php endif;?>
+	}
+</script>
+<include file="common/footer"/>
+</body>
+</html>

@@ -1,0 +1,69 @@
+.live-wrapper .am-icon {
+    color: #00c59f;
+}
+
+.name.sans-serif {
+    color: #333;
+}
+
+.mod-top .header {
+    padding: 0 14px;
+    height: 46px;
+    line-height: 45px;
+    border-bottom: 1px solid #E0E0E0;
+    background: #fff;
+}
+
+.mod-top .content {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+
+.mod-top .content .content-inner {
+    height: 100%;
+    min-height: 136px;
+    max-height: 272px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.mod-top .layui-col-xs6 {
+    height: 136px;
+    padding: 20px 14px;
+    border-bottom: 1px #E7E7E7 solid;
+}
+
+.mod-top .layui-col-xs6:nth-child(even) {
+    border-left: 1px #E7E7E7 solid;
+}
+
+.mod-top .live-wrapper {
+    position: relative;
+    padding-left: 30px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.mod-top .live-wrapper .am-icon {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.mod-top .yesterday-data {
+    margin-top: 34px;
+    color: #999;
+}
+
+.mod-top .yesterday-data .name {
+    float: left;
+}
+
+.mod-top .yesterday-data .yesterday-value {
+    float: right;
+}

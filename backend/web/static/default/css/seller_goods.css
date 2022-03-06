@@ -1,0 +1,965 @@
+/*共用样式*/
+
+.layui-input-block {
+    margin-left: 130px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.form-box {
+    padding: 0 20px;
+    box-shadow: 0 -2px 4px 0 rgba(229, 229, 229, .5);
+}
+
+a.layui-btn.layui-btn-normal.add-value-btn {
+    margin: 10px;
+}
+
+
+/*seller_goods_index*/
+
+.seller-goods .manage-cate {
+    background: #fff;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.seller-goods table .check {
+    width: 14px;
+    height: 14px;
+}
+
+.seller-goods tbody .am-icon {
+    color: #999;
+    width: 22px;
+    height: 22px;
+}
+
+.seller-goods .base-card-title {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    border-bottom: solid 1px #eee;
+    padding: 18px;
+    line-height: 12px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+
+/*seller_goods_add*/
+
+.goods-add {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.goods-add .form-box {
+    background: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.goods-add .form-box .layui-word-aux {
+    margin-left: 120px;
+    display: none;
+}
+
+.goods-add .form-box .main-cate .layui-word-aux {
+    margin-left: 0px;
+    display: none;
+}
+
+.goods-add .layui-form .layui-form-label {
+    width: 120px;
+    padding: 9px 0px;
+}
+
+.goods-add .layui-form .layui-input-inline {
+    width: auto;
+    margin-left: 10px;
+}
+
+.goods-add .layui-form .layui-input-inline input[disabled] {
+    background: #eee;
+}
+
+.goods-add .layui-form .layui-input-inline .cate-sort {
+    width: 80px;
+}
+
+.goods-add .layui-form .class-nav-label {
+    line-height: 28px;
+    line-height: 38px;
+}
+
+.goods-add .layui-form .class-nav-label input {
+    margin-right: 10px;
+}
+
+.goods-add .layui-form .info-content .layui-row {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.goods-add .cklabel {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.goods-add .cklabel .checkbox.check_item {
+    margin-top: 0;
+}
+
+.goods-add .cklabel:hover {
+    cursor: pointer;
+}
+
+.goods-add .cklabel .next-checkbox-label {
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+}
+
+.goods-add .layui-form .sell-o-addon-info>.bottom,
+.sell-o-addon-info>.top,
+.sell-o-rich-text.top {
+    font-size: 12px;
+    color: #949494;
+    line-height: 16px;
+    overflow: hidden;
+    clear: both;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.goods-add .layui-form .info-content .sell-cat-prop-item {
+    padding: 10px 0px;
+}
+
+.goods-add .layui-form .info-content .layui-form-label {
+    width: 120px;
+    text-align: right;
+}
+
+.goods-add .control-group tbody td {
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+
+.goods-add .list tbody td {
+    vertical-align: middle;
+}
+
+.goods-add .spec-value .chbox {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 0;
+    float: left;
+}
+
+.goods-add .control-group tr.spec-value .spec {
+    vertical-align: middle;
+}
+
+.goods-add .control-group .Father_Item .layui-input-inline {
+    position: relative;
+}
+
+.goods-add .control-group .Father_Item .Father_Title .addIpnut,
+.goods-add .control-group .layui-input.addIpnut {
+    width: 140px;
+}
+
+.goods-add .control-group .Father_Item .layui-input-inline .am-icon {
+    color: #999;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
+
+.goods-add .control-group .Father_Title .del {
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.goods-add .control-group .Father_Title .del:hover {
+    color: #ff5722;
+}
+
+.goods-add .next-checkbox {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+}
+
+.goods-add .checkedBox label .next-checkbox input {
+    margin-top: 0;
+}
+
+.goods-add .checkedBox label .next-checkbox-label {
+    line-height: 38px;
+}
+
+.goods-add .pop-img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #1e9fff;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    overflow: hidden;
+}
+
+.Father_Item .checkedBox label {
+    margin-top: 0px;
+}
+
+.goods-add .pop-img input {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    filter: alpha(opacity: 0);
+}
+
+.goods-add .pop-img .delete_img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.goods-add .spec_list_table .layui-table.list td{
+    position: static;
+}
+
+
+/*批量修改库存*/
+
+#stock_frame,
+#price_frame,
+#price_del_frame {
+    display: none;
+    margin: 20px;
+}
+
+.change-stoke-frame,
+.change-price-frame {
+    margin-top: 10px;
+}
+
+#stock_frame .btn-box,
+#price_frame .btn-box,
+#price_del_frame .bnt-box {
+    margin-top: 40px;
+}
+
+.frame-wrap .layui-form-item .layui-input-inline {
+    width: auto;
+}
+
+.frame-wrap .layui-form-item .select-box {
+    width: 90px;
+}
+
+#createTable .layui-table tbody tr:hover {
+    background-color: transparent;
+}
+
+.commodity-property {
+    padding: 10px 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background: #fcfcfc;
+    border: 1px solid #eee;
+}
+
+.commodity-property .attribute-wrap {
+    padding: 10px 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.commodity-property .add-prop-btn {
+    margin-left: 10px;
+}
+
+.info-list .imgBox {
+    height: 130px;
+    position: relative;
+    float: left;
+}
+
+.info-list .imgBox .mainImg {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    z-index: 10;
+    width: 128px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.info-list .imgBox li,
+.info-list .imgUpload .imgFile {
+    height: 130px;
+    width: 130px;
+    ;
+}
+
+.info-list .imgBox li {
+    border: 1px solid #eee;
+    float: left;
+    position: relative;
+    margin-right: 12px;
+}
+
+.info-list .imgBox li .imgDel {
+    display: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    right: 0;
+    top: 0;
+    left: auto;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #333;
+}
+
+.info-list .imgBox li:hover .imgDel {
+    display: block;
+}
+
+.info-list .imgUpload .imgFile {
+    font-size: 80px;
+    line-height: 130px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px dashed #eee;
+    color: #999;
+    position: relative;
+    margin-right: 10px;
+}
+
+.info-list .imgUpload .imgFile input {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.info-list .fl {
+    float: left;
+}
+
+.info-list .imgUpload .imgPrompt {
+    line-height: 130px;
+}
+
+.imgUpload .imgPrompt i {
+    color: #ff9600;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.imgUpload .explain {
+    color: #999;
+    padding: 15px 0 10px;
+    clear: both;
+}
+
+.form-box.info-list {
+    margin-bottom: 0;
+}
+
+.form-submit {
+    padding: 20px 150px;
+    background: #fff;
+}
+
+
+/*seller_goods_index*/
+
+.seller-goods-index .search-goods {
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.seller-goods-index .search-goods .layui-form-label {
+    width: 120px;
+}
+
+.seller-goods-index form .search-goods .layui-col-xs6 {
+    padding: 6px 0px;
+}
+
+.seller-goods-index form .search-goods .layui-col-xs12 {
+    padding: 20px 40px;
+}
+
+.seller-goods-index .manage-goods {
+    margin-top: 6px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 6px;
+}
+
+.seller-goods-index thead a .am-icon {
+    color: #999;
+}
+
+.seller-goods-index thead a .am-icon-sort-asc {
+    color: #f60;
+}
+
+.seller-goods-index tbody.data .item-pic {
+    border: #eee 1px solid;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.seller-goods-index tbody .am-icon {
+    color: #fff;
+    width: 22px;
+    height: 22px;
+}
+
+.seller-goods-index tbody td.price {
+    color: #f60;
+}
+
+
+/*已卖出的宝贝*/
+
+.seller-list-sold-itmes form {
+    background: #fff;
+}
+
+.seller-list-sold-itmes .am-pagination {
+    padding-bottom: 20px;
+}
+
+.seller-list-sold-itmes .search-goods {
+    position: relative;
+    padding: 20px;
+}
+
+.seller-list-sold-itmes .search-goods .search-form-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*    display: none;*/
+}
+
+.seller-list-sold-itmes .search-goods .search-form-box.none {
+    display: none;
+}
+
+.seller-list-sold-itmes .more-box {
+    position: absolute;
+    bottom: 6px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.seller-list-sold-itmes .more-box .more-btn {
+    padding: 4px 10px;
+    cursor: pointer;
+    color: #999;
+}
+
+.seller-list-sold-itmes .more-box .more-btn i {
+    color: #999;
+}
+
+.seller-list-sold-itmes .layui-form {
+    background: #fff;
+}
+
+.seller-list-sold-itmes .layui-form .order-item {
+    padding-bottom: 20px;
+}
+
+.seller-list-sold-itmes .layui-form .order-item-title {
+    background: #eaf8ff;
+    padding: 10px;
+}
+
+.seller-list-sold-itmes .layui-form .order-item-title .del-order {
+    float: right;
+    font-size: 12px;
+}
+
+.seller-list-sold-itmes .layui-form .order-item-title span {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+.seller-list-sold-itmes .layui-form .order-item table {
+    width: 100%;
+    overflow: hidden;
+}
+
+.seller-list-sold-itmes .layui-form .order-title th,
+.seller-list-sold-itmes .layui-form .order-item td {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.seller-list-sold-itmes .layui-form .order-item table {
+    overflow: hidden;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-img {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-img,
+.seller-list-sold-itmes .layui-form .order-item .order-item-img {
+    width: 70px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-goods,
+.seller-list-sold-itmes .layui-form .order-item .order-item-goods {
+    text-align: left;
+}
+
+.seller-list-sold-itmes .layui-form .order-item .order-item-desc {
+    text-align: left;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-price,
+.seller-list-sold-itmes .layui-form .order-item .order-item-price {
+    text-align: center;
+    width: 100px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-num,
+.seller-list-sold-itmes .layui-form .order-item .order-item-num {
+    text-align: center;
+    width: 60px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-service,
+.seller-list-sold-itmes .layui-form .order-item .order-item-service {
+    text-align: center;
+    width: 80px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-seller,
+.seller-list-sold-itmes .layui-form .order-item .order-item-seller {
+    text-align: center;
+    width: 100px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-status,
+.seller-list-sold-itmes .layui-form .order-item .order-item-status {
+    text-align: center;
+    width: 100px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-receivables,
+.seller-list-sold-itmes .layui-form .order-item .order-item-receivables {
+    text-align: center;
+    width: 140px;
+}
+
+.seller-list-sold-itmes .layui-form .order-title .order-title-evaluate,
+.seller-list-sold-itmes .layui-form .order-item .order-item-evaluate {
+    text-align: center;
+    width: 90px;
+}
+
+.seller-list-sold-itmes .layui-form .order-item td {
+    border: none;
+}
+
+.seller-list-sold-itmes .layui-form .order-item .order-item-service {
+    border: 1px solid #eee;
+    border-left: none;
+}
+
+.seller-list-sold-itmes .layui-form .order-item .order-item-img {
+    border: 1px solid #eee;
+    border-right: none;
+}
+
+.seller-list-sold-itmes .layui-form .order-item td.order-item-img a {
+    position: absolute;
+    width: 52px;
+    display: inline-block;
+    height: 52px;
+    left: 10px;
+    top: 12px;
+}
+
+.seller-list-sold-itmes .layui-form .order-item .order-item-goods,
+.seller-list-sold-itmes .layui-form .order-item .order-item-price,
+.seller-list-sold-itmes .layui-form .order-item .order-item-num {
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+}
+
+.seller-list-sold-itmes .layui-form .order-item tr {
+    height: 85px;
+}
+
+.order-status a {
+    padding: 6px 10px;
+    display: inline-block;
+    background: #eee;
+    margin-bottom: 10px;
+}
+
+.order-status .status1 {
+    background: #14a4ff;
+    color: #fff
+}
+
+
+/*宝贝发货*/
+
+.trade-order-detail table {
+    width: 100%;
+}
+
+.trade-order-detail .order-item table tr {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.trade-order-detail .order-item table td {
+    border: none;
+}
+
+.trade-order-detail .buyer-info {
+    padding: 10px 10px;
+    background: #fff;
+}
+
+.trade-order-detail .buyer-info .buyer-title {
+    padding: 10px 0px;
+}
+
+.trade-order-detail .buyer-info tr td {
+    padding: 10px 0;
+}
+
+.trade-order-detail .trade-all {
+    padding-left: 0px;
+}
+
+.trade-order-detail .layui-form .order-item .order-item-img {
+    border: none;
+}
+
+.trade-order-detail .layui-form .order-item td.order-item-img a {
+    top: 18px;
+}
+
+.trade-order-detail .order-item-check input {
+    margin-left: 4px;
+}
+
+.trade-order-detail .order-item table tr.trade-all {
+    border-bottom: none;
+}
+
+.trade-order-detail .order-item table tr.trade-all td {
+    padding-top: 20px;
+}
+
+.trade-order-detail .trade-all .order-item-check {
+    padding: 0 10px;
+}
+
+.trade-order-detail .trade-all .order-status {
+    padding: 0 4px;
+}
+
+.trade-order-detail .trade-all td.order-item-check {
+    text-align: center;
+}
+
+.trade-order-detail .trade-all .send-trade {
+    padding-left: 0px;
+    text-align: left !important;
+}
+
+.trade-order-detail .trade-all .send-trade a {
+    margin-left: 6px;
+}
+
+#tradeFrame,
+#addressFrame {
+    display: none;
+    padding: 20px;
+}
+
+#addressFrame .textarea {
+    width: 100%;
+    height: 80px;
+    border-color: #eee;
+    overflow: auto;
+    padding: 10px;
+}
+
+#addressFrame .layui-form-pane .layui-form-label {
+    border: none;
+    background: #fff;
+}
+
+
+/*交易详情*/
+
+.col-main {
+    overflow: visible;
+}
+
+.seller-order-info .seller-status {
+    background: #fff;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.seller-order-info .seller-status .buyer-info {
+    width: 60%;
+    float: left;
+}
+
+.seller-order-info .seller-status .buyer-info .buyer-title {
+    padding-bottom: 10px;
+}
+
+.seller-order-info .seller-status .buyer-info tr td {
+    padding: 10px;
+}
+
+.seller-order-info .seller-status .order-status {
+    width: 30%;
+    float: right;
+}
+
+.seller-order-info .seller-status .order-status i.am-icon-cab {
+    color: #2b842b;
+}
+
+.seller-order-info .order-item-status {
+    border: 1px solid #eee !important;
+}
+
+.seller-order-info .order-goods-num {
+    cursor: pointer;
+}
+
+.seller-order-info .order-item-title {
+    position: relative;
+}
+
+.seller-order-info .order-item-title .order-goods-num {
+    cursor: pointer;
+}
+
+.seller-order-info .order-item-title .order-goods-trade {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.seller-order-info .order-goods-trade .package-status {
+    width: 100%;
+    max-width: 100%;
+}
+
+.seller-order-info .order-goods-trade .package-status li p.text {
+    left: 230px;
+}
+
+
+/*seller_order_refund*/
+
+.seller-order-refund .set-refund {
+    text-align: center;
+    padding: 20px;
+}
+
+.seller-order-refund .refund-detail-info {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.seller-order-refund .refund-detail-info .refund-info,
+.seller-order-refund .refund-detail-info .refund-img {
+    padding: 10px;
+}
+
+.seller-order-refund .refund-detail-info .refund-con {
+    color: #999;
+}
+
+.seller-order-refund .refund-detail-info .title {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.seller-order-refund .refund-detail-info .img img {
+    float: left;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.seller-order-refund #refuseFrame {
+    display: none;
+    padding: 20px;
+    width: 360px;
+}
+
+.seller-order-refund #refuseFrame .textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #eee;
+}
+
+
+/*seller_my_rate*/
+
+.seller-my-rate .layui-form {
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+.seller-my-rate .layui-form .goods-title .layui-table {
+    border-right: none;
+    border-left: none;
+}
+
+.goods-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.goods-item .order-item-img {
+    width: 70px;
+}
+
+.goods-item .order-item-img a {
+    position: absolute;
+    width: 52px;
+    display: inline-block;
+    height: 52px;
+    left: 10px;
+    top: 12px;
+}
+
+.goods-item td {
+    border: none;
+}
+
+.goods-item td.order-item-evaluate {
+    padding: 0;
+}
+
+.goods-item tr td .goods-evaluate-img {
+    padding: 10px 0;
+}
+
+.goods-item tr td .goods-evaluate-img img {
+    width: 100px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.goods-item span i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.goods-item span i.op1,
+.goods-item span i.op2 {
+    background: url(../images/iconfont-evaluate.png);
+    background-size: 16px 16px;
+}
+
+.goods-item span i.op3 {
+    background: url(../images/iconfont-bad.png);
+    background-size: 16px 16px;
+}
+
+.goods-item span i.op1.active {
+    background: url(../images/iconfont-good.png);
+    background-size: 16px 16px;
+}
+
+.goods-item span i.op2.active {
+    background: url(../images/iconfont-middle.png);
+    background-size: 16px 16px;
+}
+
+.goods-item span i.op3.active {
+    background: url(../images/iconfont-badon.png);
+    background-size: 16px 16px;
+}

@@ -1,0 +1,120 @@
+/*店铺管理-店铺设置-域名设置*/
+
+.seller-set .main-box {
+    background: #fff;
+    padding: 20px;
+}
+
+.seller-set .seller-index .layui-tab {
+    background: #fff;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.seller-set .domain-status label {
+    color: #999;
+}
+
+.seller-set .domain-status span.status-info {
+    padding: 9px 10px;
+    display: inline-block;
+}
+
+
+/*店铺模板设置*/
+
+.seller-set-template .main-box {
+    background: #fff;
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.seller-set-template .main-box .template-box {
+    height: auto;
+    overflow: hidden;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box {
+    overflow: hidden;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul {
+    border: 1px solid #eee;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul .select-btn {
+    text-align: center;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul.selected,
+.seller-set-template .main-box .template-box .template-inner-box ul:hover {
+    border: 1px solid #ff9600;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box .template-box-name {
+    text-align: center;
+    padding: 6px 0;
+    background: #000;
+    color: #fff;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box .name_logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul.selected .template-box-name {
+    background: #ff9600;
+    color: #fff;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul.selected .name_logo .use-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 999;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box .use-mask {
+    display: none;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul.selected .use-mask {
+    display: block;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul.selected .name_logo .use-mask b {
+    margin-top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    font-size: 14px;
+    display: block;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul .select-btn {
+    margin-bottom: 10px;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box ul.selected .select-btn a {
+    background: #eee;
+    color: #999;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box .name_logo img {
+    min-height: 167px;
+    max-height: 200px;
+}
+
+.seller-set-template .main-box .template-box .template-inner-box .description {
+    margin: 10px;
+    color: #666;
+}

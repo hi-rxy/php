@@ -1,0 +1,41 @@
+.news-box,
+.news-detail-box {
+    padding: 10px;
+}
+
+.news-box .content {
+    margin-bottom: 40px;
+}
+
+.news-box .content .msg-status {
+    margin-right: 10px;
+    color: #666;
+}
+
+.news-box .content ul li {
+    line-height: 34px;
+    border-bottom: 1px solid #eee;
+}
+
+.news-box .content ul li .time {
+    float: right;
+    color: #999;
+}
+
+.news-detail-box h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bolder;
+    border-bottom: 1px dashed #eee;
+}
+
+.news-detail-box .content {
+    margin-top: 20px;
+}
+
+.news-detail-box .content .time {
+    margin-top: 20px;
+    text-align: right;
+    color: #999;
+}

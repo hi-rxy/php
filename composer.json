@@ -1,0 +1,59 @@
+{
+  "name": "liujx/yii2-app-advanced",
+  "description": "Yii2 ace-admin RBAC management background",
+  "keywords": [
+    "yii2",
+    "yii2-admin",
+    "project template",
+    "admin",
+    "auth",
+    "rbac"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "liujinxing",
+      "email": "jinxing.liu@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+    "yiisoft/yii2-imagine": "~2.0.0",
+    "xj/yii2-uploadify-widget": "~2.0.0",
+    "cliff363825/yii2-kindeditor": "*",
+    "jinxing/yii2-admin": "~1.2.0",
+    "yiier/yii2-humans-log": "*",
+    "php-curl-class/php-curl-class": "^8.9",
+    "mtdowling/cron-expression": "^1.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "~2.1.0",
+    "yiisoft/yii2-gii": "~2.1.0",
+    "yiisoft/yii2-faker": "~2.0.0",
+    "codeception/base": "^2.4.0",
+    "codeception/verify": "~1.0.0"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}

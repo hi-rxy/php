@@ -1,0 +1,150 @@
+.wx-pay {
+    padding: 0 10px;
+}
+
+.wx-pay .order-title {
+    width: 100%;
+    overflow: hidden;
+}
+
+.wx-pay .order-title .order-num {
+    float: left;
+}
+
+.wx-pay .order-title .order-price {
+    float: right;
+    color: #f49308;
+}
+
+.wx-pay .order-title .order-price em {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #ff9600;
+}
+
+.wx-pay .pc-order-con .pay-qr-box {
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid #eee;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr-bottom {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr-bottom .img-info {
+    background: #eee;
+    padding: 6px 0;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr-bottom .img-icon {
+    background: #417eb7;
+    text-align: left;
+    height: 50px;
+    position: relative;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr-bottom .img-icon .pay-explain {
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 4px;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr-bottom .img-icon .pay-explain b {
+    display: block;
+}
+
+.wx-pay .pc-order-con .pay-qr-box .img-qr-bottom .img-icon img {
+    width: 37px;
+    height: 37px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.wx-pay .pay-order-guide {
+    display: none;
+    width: 20px;
+    float: right;
+    text-align: right;
+    margin-top: 70px;
+    position: relative;
+}
+
+.wx-pay .pay-order-guide img {
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.wx-pay .wap-order-con {
+    padding: 40% 0;
+    text-align: center;
+}
+
+.wx-pay .wap-order-con .wap-pay-btn {
+    width: 70%;
+    margin: 0 auto;
+    padding: 16px 0px;
+    font-size: 1.4rem;
+    background: #1cab1b;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+}
+
+.wx-pay .wap-order-con .wap-cancle-pay-btn {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    background: #eee;
+    color: #999;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 640px) {
+    .wx-pay {
+        padding: 0;
+    }
+    .wx-pay .pay-order-guide,
+    .wx-pay .pc-order-con .pay-qr-box {
+        display: block;
+    }
+    .wx-pay .wap-order-con {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .wx-pay .pc-order-con .pay-qr-box {
+        text-align: center;
+        width: 302px;
+        float: left;
+        margin-left: 50px;
+        margin-top: 100px;
+        border: 1px solid #eee;
+        border-bottom: none;
+        box-sizing: border-box;
+    }
+    .wx-pay .pay-order-guide img {
+        width: 329px;
+        top: 0;
+        height: auto;
+    }
+}

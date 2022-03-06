@@ -1,0 +1,65 @@
+/*seller_category_index*/
+
+.category-index .search-cate {
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.category-index .search-cate .layui-form-label {
+    width: 120px;
+}
+
+.category-index .manage-cate {
+    margin-top: 6px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 6px;
+}
+
+.category-index table .check {
+    width: 14px;
+    height: 14px;
+}
+
+.category-index tbody .am-icon {
+    color: #fff;
+    width: 22px;
+    height: 22px;
+}
+
+
+/*seller_category_edit*/
+
+.category-edit {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.category-edit .form-box {
+    margin-top: 10px;
+    padding: 20px 0;
+    background: #fff;
+}
+
+.category-edit .layui-form .layui-form-label {
+    width: 120px;
+}
+
+.category-edit .layui-form .layui-input-inline {
+    width: 280px;
+}
+
+.category-edit .layui-form .layui-input-inline .cate-sort {
+    width: 80px;
+}
+
+.category-edit .layui-form .class-nav-label {
+    line-height: 28px;
+    line-height: 38px;
+}
+
+.category-edit .layui-form .class-nav-label input {
+    margin-right: 10px;
+}

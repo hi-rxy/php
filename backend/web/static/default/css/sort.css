@@ -1,0 +1,100 @@
+/*分类样式*/
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.main .am-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main .category-body {
+    padding-left: 100px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.main .category-left-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 86px;
+    height: 100%;
+    background: #eee;
+}
+
+.main .category-left-box ul {
+    height: 100%;
+}
+
+.main .category-left-box ul li {
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.main .category-left-box ul li.cur,
+.main .category-left-box ul li:hover {
+    background: #fff;
+}
+
+.main .category-right-box {
+    width: 100%;
+    float: left;
+}
+
+.main .category-right-box dl {
+    height: auto;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.main .category-right-box h4 {
+    line-height: 30px;
+}
+
+.main .category-right-box dl dd {
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    padding: 10px 0px;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main .category-right-box .category-div span {
+    line-height: 30px;
+}
+
+.main .category-right-box .category-div {
+    display: none;
+}
+
+.main .category-right-box .category-div.cur {
+    display: block;
+}
+
+@media only screen and (min-width:640px) {
+    .main {
+        margin-top: 0;
+    }
+    .main .category-body {
+        padding-right: 0px;
+    }
+    .main .category-right-box dl dd {
+        width: auto;
+        margin-right: 10px;
+        padding: 10px 20px;
+    }
+}

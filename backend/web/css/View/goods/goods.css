@@ -1,0 +1,235 @@
+label{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: arial, "Lantinghei SC", "Microsoft Yahei";
+}
+
+label .error {
+    color: red;
+}
+
+input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+#sales .Father_Item .checkedBox {
+    position: relative;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sales .Father_Item .checkedBox label {
+    margin-top: 0;
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sales .Father_Item .chbox i.del {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor:pointer;
+}
+
+#sales .spec-value .chbox {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 0;
+    float: left;
+}
+
+#sales .checkedBox label .next-checkbox input {
+    margin-top: 0;
+}
+
+#sales .checkedBox label .next-checkbox-label {
+    line-height: 38px;
+}
+
+#child_class_id, #grandson_class_id,#child_store_class_id,.footer {
+    display: none;
+}
+
+#sales .next-checkbox {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+}
+
+#sales .cklabel .next-checkbox-label {
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+}
+
+#sales .pop-img {
+    position: absolute;
+    top: 18px;
+    right: -15px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 16px;
+    text-align: center;
+    color: #1e9fff;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#sales .pop-img input {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity: 0);
+}
+
+#sales .pop-img .delete_img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+#sales .Father_Title .del:hover {
+    color: #ff5722;
+}
+
+#sales .Father_Title .name {
+    position: relative;
+    width: auto;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sales .Father_Title .name i.del {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+}
+
+#sales .Father_Title .addIpnut {
+    width: 140px;
+}
+
+#graphic .fl{
+    float: left;
+}
+
+#graphic .imgBox{
+    height: 130px;
+    position: relative;
+}
+
+#graphic .imgBox li {
+    border: 1px solid #eee;
+    float: left;
+    position: relative;
+    margin-right: 12px;
+}
+
+#graphic .imgBox .mainImg{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    z-index: 10;
+    width: 128px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+#graphic .imgBox li .imgDel{
+    /*display: none;*/
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    right: 0;
+    top: 0;
+    left: auto;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #333;
+}
+
+#graphic .imgUpload .imgFile {
+    font-size: 80px;
+    line-height: 130px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px dashed #eee;
+    color: #999;
+    position: relative;
+    margin-right: 10px;
+}
+
+#graphic .imgUpload .imgFile input{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#graphic .imgUpload ul,#graphic .imgUpload p{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#graphic .imgBox li, #graphic .imgUpload .imgFile {
+    height: 130px;
+    width: 130px;
+    list-style: none;
+}
+
+#graphic .imgUpload .imgPrompt {
+    line-height: 130px;
+}
+
+#graphic .imgUpload .explain {
+    color: #999;
+    padding: 15px 0 10px;
+    clear: both;
+}
+
+#graphic .imgUpload .imgPrompt i {
+    color: #ff9600;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: inherit;
+    vertical-align: baseline;
+    font-family: arial, "Lantinghei SC", "Microsoft Yahei";
+}
